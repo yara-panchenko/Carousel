@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Carousel.MainPage">
+    <ContentPage>
+        <ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness">
+                <On Platform="iOS, Android" Value="0,40,0,0" />
+            </OnPlatform>
+        </ContentPage.Padding>
+        <StackLayout>
+            <Label Text="Флегматик" FontSize="Medium" HorizontalOptions="Center" />
+            <Image x:Name="fleg" Source="flegmatik.png">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="TapGestureRecognizer_Tapped"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="https://testometrika.com/personality-and-temper/the-formula-of-temperament-a-belov/"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness">
+                <On Platform="iOS, Android" Value="0,40,0,0" />
+            </OnPlatform>
+        </ContentPage.Padding>
+        <StackLayout>
+            <Label Text="Меланхолик" FontSize="Medium" HorizontalOptions="Center" />
+            <Image x:Name="mela"  Source="melanholic.png">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="TapGestureRecognizer_Tapped_1"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="https://testometrika.com/personality-and-temper/the-formula-of-temperament-a-belov/"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness">
+                <On Platform="iOS, Android" Value="0,40,0,0" />
+            </OnPlatform>
+        </ContentPage.Padding>
+        <StackLayout>
+            <Label Text="Холерик" FontSize="Medium" HorizontalOptions="Center" />
+            <Image x:Name="sang" Source="holerik.png">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="TapGestureRecognizer_Tapped_2"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="https://testometrika.com/personality-and-temper/the-formula-of-temperament-a-belov/"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness">
+                <On Platform="iOS, Android" Value="0,40,0,0" />
+            </OnPlatform>
+        </ContentPage.Padding>
+        <StackLayout>
+            <Label Text="Сангвиник" FontSize="Medium" HorizontalOptions="Center" />
+            <Image x:Name="sang" Source="sangvinik.png">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="TapGestureRecognizer_Tapped_3"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="https://testometrika.com/personality-and-temper/the-formula-of-temperament-a-belov/"/>
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>
