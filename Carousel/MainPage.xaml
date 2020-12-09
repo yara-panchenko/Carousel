@@ -9,15 +9,15 @@
             </OnPlatform>
         </ContentPage.Padding>
         <StackLayout>
-            <Label Text="Флегматик" FontSize="Medium" HorizontalOptions="Center" />
-            <Image x:Name="fleg" Source="flegmatik.png">
+            <Label Text="Флегматик" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#8FD0B5" FontAttributes="Italic,Bold" TextColor="#1B1919" />
+            <Image x:Name="fleg" Source="flegmatik.PNG" WidthRequest="400" HeightRequest="400" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
                 Tapped="TapGestureRecognizer_Tapped"
                 NumberOfTapsRequired="1" />
                 </Image.GestureRecognizers>
             </Image>
-            <Label Text="https://testometrika.com/personality-and-temper/the-formula-of-temperament-a-belov/"/>
+            <Button Text="Пройти тест" Clicked="Button_Clicked_3"></Button>
         </StackLayout>
     </ContentPage>
     <ContentPage>
@@ -27,15 +27,15 @@
             </OnPlatform>
         </ContentPage.Padding>
         <StackLayout>
-            <Label Text="Меланхолик" FontSize="Medium" HorizontalOptions="Center" />
-            <Image x:Name="mela"  Source="melanholic.png">
+            <Label Text="Меланхолик" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#8FD0B5" FontAttributes="Italic,Bold" TextColor="#1B1919"/>
+            <Image x:Name="mela"  Source="melanholic.PNG" WidthRequest="400" HeightRequest="400" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
                 Tapped="TapGestureRecognizer_Tapped_1"
                 NumberOfTapsRequired="1" />
                 </Image.GestureRecognizers>
             </Image>
-            <Label Text="https://testometrika.com/personality-and-temper/the-formula-of-temperament-a-belov/"/>
+            <Button Text="Пройти тест" Clicked="Button_Clicked_1"></Button>
         </StackLayout>
     </ContentPage>
     <ContentPage>
@@ -45,15 +45,15 @@
             </OnPlatform>
         </ContentPage.Padding>
         <StackLayout>
-            <Label Text="Холерик" FontSize="Medium" HorizontalOptions="Center" />
-            <Image x:Name="sang" Source="holerik.png">
+            <Label Text="Холерик" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#8FD0B5" FontAttributes="Italic,Bold" TextColor="#1B1919" />
+            <Image x:Name="hole" Source="holerik.PNG" WidthRequest="400" HeightRequest="400" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
                 Tapped="TapGestureRecognizer_Tapped_2"
                 NumberOfTapsRequired="1" />
                 </Image.GestureRecognizers>
             </Image>
-            <Label Text="https://testometrika.com/personality-and-temper/the-formula-of-temperament-a-belov/"/>
+            <Button Text="Пройти тест" Clicked="Button_Clicked"></Button>
         </StackLayout>
     </ContentPage>
     <ContentPage>
@@ -63,15 +63,15 @@
             </OnPlatform>
         </ContentPage.Padding>
         <StackLayout>
-            <Label Text="Сангвиник" FontSize="Medium" HorizontalOptions="Center" />
-            <Image x:Name="sang" Source="sangvinik.png">
+            <Label Text="Сангвиник" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#8FD0B5" FontAttributes="Italic,Bold" TextColor="#1B1919" />
+            <Image x:Name="sang" Source="sangvinik.PNG" WidthRequest="400" HeightRequest="400" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
                 Tapped="TapGestureRecognizer_Tapped_3"
                 NumberOfTapsRequired="1" />
                 </Image.GestureRecognizers>
             </Image>
-            <Label Text="https://testometrika.com/personality-and-temper/the-formula-of-temperament-a-belov/"/>
+            <Button Text="Пройти тест" Clicked="Button_Clicked_2"></Button>
         </StackLayout>
     </ContentPage>
 </CarouselPage>

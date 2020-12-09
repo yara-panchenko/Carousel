@@ -4,11 +4,12 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace Carousel
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : CarouselPage
     {
 
         public MainPage()
@@ -33,6 +34,30 @@ namespace Carousel
         private void TapGestureRecognizer_Tapped_3(object sender, EventArgs e)
         {
             DisplayAlert("Сангвиник", "живой, горячий, подвижный человек, с частой сменой настроения, впечатлений, с быстрой реакцией на все события, происходящие вокруг него, довольно легко примиряющийся со своими неудачами и неприятностями. Обычно сангвиники обладают выразительной мимикой. Он очень продуктивен в работе, когда ему интересно, приходя в сильное возбуждение от этого, если работа не интересна, он относится к ней безразлично, ему становится скучно.", "OK");
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            Uri uri = new Uri("https://testometrika.com/personality-and-temper/the-formula-of-temperament-a-belov/");
+            await Browser.OpenAsync(uri);
+        }
+
+        private async void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Uri uri = new Uri("https://testometrika.com/personality-and-temper/the-formula-of-temperament-a-belov/");
+            await Browser.OpenAsync(uri);
+        }
+
+        private async void Button_Clicked_2(object sender, EventArgs e)
+        {
+            Uri uri = new Uri("https://testometrika.com/personality-and-temper/the-formula-of-temperament-a-belov/");
+            await Browser.OpenAsync(uri);
+        }
+
+        private async void Button_Clicked_3(object sender, EventArgs e)
+        {
+            Uri uri = new Uri("https://testometrika.com/personality-and-temper/the-formula-of-temperament-a-belov/");
+            await Browser.OpenAsync(uri);
         }
     }
 }

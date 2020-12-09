@@ -5,15 +5,9 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carousel.Android", "Carousel.Android\Carousel.Android.csproj", "{BBA9F6DC-6377-4FA3-8BF4-73A155638B01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carousel", "Carousel\Carousel.csproj", "{2D8019C0-4DE6-4DE7-B32E-7A49ECE42EE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carousel", "Carousel\Carousel.csproj", "{2D8019C0-4DE6-4DE7-B32E-7A49ECE42EE9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A87A94D7-931D-4364-BA07-DFD290480F43}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\flegmatik.png = ..\..\..\Desktop\flegmatik.png
-		..\..\..\Desktop\holerik.jpg = ..\..\..\Desktop\holerik.jpg
-		..\..\..\Desktop\melanholic.png = ..\..\..\Desktop\melanholic.png
-		..\..\..\Desktop\sangvinik.jpg = ..\..\..\Desktop\sangvinik.jpg
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
